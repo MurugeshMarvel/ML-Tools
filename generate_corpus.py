@@ -86,6 +86,7 @@ def main(args):
                         print e                    
                     a_corpus.extend(permute_model(json_data))
 
+    print args[0][-5:]
     with open(args[0] + ".json", 'w') as output:
         print "Writing out to " + args[0] + ".json"
         json.dump(a_corpus, output, indent=4)

@@ -1,0 +1,5 @@
+theano~=0.8.2
+scipy~=0.18.1
+numpy~=1.11.0
+librosa~=0.4.3
+pickle
